@@ -2,9 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// The audio manager
-/// </summary>
 public static class AudioManager
 {
     static bool initialized = false;
@@ -12,9 +9,7 @@ public static class AudioManager
     static Dictionary<AudioClipName, AudioClip> audioClips =
         new Dictionary<AudioClipName, AudioClip>();
 
-    /// <summary>
-    /// Gets whether or not the audio manager has been initialized
-    /// </summary>
+    // Gets whether or not the audio manager has been initialized
     public static bool Initialized
     {
         get { return initialized; }
