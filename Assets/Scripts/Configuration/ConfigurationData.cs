@@ -292,10 +292,7 @@ public class ConfigurationData
     /// <param name="csvValues">csv string of values</param>
     void SetConfigurationDataFields(string csvValues)
     {
-        // the code below assumes we know the order in which the
-        // values appear in the string. We could do something more
-        // complicated with the names and values, but that's not
-        // necessary here
+
         string[] values = csvValues.Split(',');
         paddleMoveUnitsPerSecond = float.Parse(values[0]);
         ballLifeSeconds = float.Parse(values[1]);
