@@ -1,5 +1,5 @@
 ﻿/// <summary>
-/// An enumeration of the audio clip names
+/// Enumeration audio clip names
 /// </summary>
 public enum AudioClipName
 {
